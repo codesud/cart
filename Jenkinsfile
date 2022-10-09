@@ -6,7 +6,7 @@ pipeline {
         stage('Lint checks') {
             steps {
                 script {
-                    sample.info("Starting-value", "snapchat.com")
+                    nodejs.lintcheck("Starting-value", "snapchat.com")
                 }
                 sh "echo installing jslint"
                 sh "npm install jslint"
