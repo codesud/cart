@@ -1,5 +1,5 @@
 @Library('roboshop-shared-library@main')
-pipeline{
+pipeline {
     agent any
     stages {
         // This should run for every commit of feature branch
