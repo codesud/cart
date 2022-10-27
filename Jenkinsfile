@@ -2,5 +2,5 @@
 
 env.COMPONENT="cart"
 env.APP_TYPE="nodejs"
-// nodejs()
+// nodejs() Uncomment this when using APPLICATION on servers.
 docker()
